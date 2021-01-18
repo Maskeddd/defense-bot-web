@@ -9,6 +9,7 @@ body {
     display: inline-block;
     float: left;
     margin-left: 10px;
+    user-select: none;
 }
 
 .header {
@@ -65,6 +66,10 @@ a {
     text-align: center;
 }
 
+.buttons-main {
+    user-select: none;
+}
+
 .button-large {
     display: inline-block;
     height: 60px;
@@ -76,6 +81,7 @@ a {
     margin: 20px;
     font-size: 17px;
     cursor: pointer;
+    user-select: none;
 }
 
 #button-invite {
